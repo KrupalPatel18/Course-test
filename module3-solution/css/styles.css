@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Oxygen',sans-serif;
+}
+
+.navbar{
+    background-color: rgb(189, 184, 184);
+}
+
+.navbar-brand{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#navbarSupportedContent{
+    background-color: white;
+    border: 1px solid black;
+}
+
+#navbarSupportedContent .nav-item{
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 0;
+}
+
+.main-content h1{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.main-content .row{
+    background-color: rgb(189, 184, 184);
+}
+
+@media (min-width:768px){
+    #navbarSupportedContent{
+        display: none !important;
+    }
+}
